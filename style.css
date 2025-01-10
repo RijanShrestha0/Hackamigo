@@ -2,29 +2,48 @@ body{
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
-img{
-    width: 68px;
-    height: 200px;
-    overflow: auto;
-}
 .C1{
-    display: flex;
-    justify-content: left;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     border: #000;
     padding: 10px;
 
 }
+.main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 .tube{
     border: 2px solid #000;
     border-radius: 0px 0px 70px 70px;
-    width: 30px;
-    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 45.5%, #EC0A0A 100%);
+    width: 50px;
+    height: 200px;
 }
 .tubetop{
     border: 2px solid #000;
     border-radius: 50px;
-    width: 35px;
-    height: 4px;
-    margin-left: -36.5px;
-    margin-top: -6px;
+    width: 55px;
+    height: 6px;
+    margin-left: -57px;
+    margin-top: -8px;
+}
+.Testtube{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+button, select{
+    background-color: #304A6E;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+    height: 50px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
 }
